@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* For phones */
+
+@media only screen and (max-width: 600px) {
+    /* Navigation */
+    #navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo img{
+        height: 300px;
+        margin-bottom: 200px;
+        margin-right: 150px;
+    }
+    .d1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+
+    /* Services */
+    #services h1 {
+        font-size: 32px;
+    }
+    #services p {
+        font-size: 16px;
+    }
+    #services h3 {
+        font-size: 24px;
+    }
+
+    /* About */
+    #about h1 {
+        font-size: 32px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+
+    /* Contact */
+    #contact h1 {
+        font-size: 32px;
+    }
+    #contact ul li {
+        font-size: 16px;
+    }
+
+    #login div{
+        width: 250px;
+    }
+}
